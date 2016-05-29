@@ -36,7 +36,8 @@ shinyUI(
                               tags$li("To see a scatter plot of these results, 
                                       select the Plot sub-tab and update the 
                                       line-target drop down to view a plot for each.")
-                      )
+                      ),
+                      a(href='https://github.com/brianfrancis/ShinyAppProject','Link to github repo')
                 ),
                 tabPanel("Configurations",                                             
                          numericInput('maxcycles', 'Maximum Cycles', 40, 
